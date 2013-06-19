@@ -48,11 +48,6 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>fuse4j</groupId>
-                <artifactId>fuse4j-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
                 <version>1.1.1</version>
