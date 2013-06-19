@@ -20,7 +20,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @SuppressWarnings({"OctalInteger"})
-public class FakeFilesystem implements Filesystem3, XattrSupport, LifecycleSupport {
+public class FakeFilesystem implements Filesystem3 {
     private static final Log log = LogFactory.getLog(FakeFilesystem.class);
 
     private static final int BLOCK_SIZE = 512;
