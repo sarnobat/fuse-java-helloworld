@@ -19,3 +19,4 @@ INFO Thread-3 fuse.FakeFilesystem-Destroying Filesystem
 INFO main fuse.FakeFilesystem-created
 INFO main fuse.FakeFilesystem-created
 INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-created
