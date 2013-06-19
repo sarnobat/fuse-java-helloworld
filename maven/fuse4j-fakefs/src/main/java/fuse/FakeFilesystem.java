@@ -26,6 +26,9 @@ public class FakeFilesystem implements Filesystem3 {
     private static final int BLOCK_SIZE = 512;
     private static final int NAME_LENGTH = 1024;
 
+    // a root directory
+    private Directory root;
+
     private static class Node {
         static int nfiles = 0;
 
@@ -106,9 +109,6 @@ public class FakeFilesystem implements Filesystem3 {
             return "FileHandle[" + node + ", hashCode=" + hashCode() + "]";
         }
     }
-
-    // a root directory
-    private Directory root;
 
     // lookup node
 
