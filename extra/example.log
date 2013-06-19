@@ -908,3 +908,11 @@ INFO main fuse.FakeFilesystem-created
 INFO Thread-1 fuse.FakeFilesystem-getdir()
 INFO main fuse.FakeFilesystem-getdir()
 INFO main fuse.FakeFilesystem-getdir()
+INFO main fuse.FakeFilesystem-created
+INFO Thread-1 fuse.FakeFilesystem-getdir()
+INFO Thread-1 fuse.FakeFilesystem-getdir()
+INFO main fuse.FakeFilesystem-getdir()
+INFO main fuse.FakeFilesystem-created
+INFO Thread-2 fuse.FakeFilesystem-getdir()
+INFO Thread-2 fuse.FakeFilesystem-getdir()
+INFO Thread-2 fuse.FakeFilesystem-getdir()

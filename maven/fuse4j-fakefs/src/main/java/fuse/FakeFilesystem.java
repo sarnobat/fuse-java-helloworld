@@ -12,6 +12,7 @@ package fuse;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import java.io.File;
 import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -117,7 +118,7 @@ public class FakeFilesystem implements Filesystem3 {
             return root;
         }
 
-        java.io.File f = new java.io.File(path);
+        File f = new File(path);
         Node parent = lookup(f.getParent());
         Node node = (parent instanceof Directory) ? ((Directory) parent).files.get(f.getName()) : null;
 
