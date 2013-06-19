@@ -27,3 +27,884 @@ INFO main fuse.FakeFilesystem-created
 INFO main fuse.FakeFilesystem-created
 INFO main fuse.FakeFilesystem-created
 INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-created
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1418902458, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613392, mtime=1371613392, ctime=1371613392, hashCode=1835195318 ]
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1967571412 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1177264411 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1516115866 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1465888207 ]
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1250696665 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/mach_kernel
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2044693401 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  lookup("/mach_kernel") returning: null
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1128671313 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=855703640 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=113093521 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/.hidden
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/.hidden") returning: null
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 2
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=239779852 ]
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1300650792 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=801818331 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=700804192 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1615734796 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=724000057 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=626614097 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=243323391 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=727368649 ]
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1407965019 ]
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=545768040 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=820791943 ]
+DEBUG Thread-1 fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1520314875 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1418902458, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613392, mtime=1371613392, ctime=1371613392, hashCode=2040919865 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/subdir
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2131361171 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=2112978551, nlink=1, uid=0, gid=0, rdev=0, size=2048, blocks=4, atime=1371613392, mtime=1371613392, ctime=1371613392, hashCode=1759969037 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/Backups.backupdb
+DEBUG Thread-2 fuse.FakeFilesystem-  lookup("/Backups.backupdb") returning: null
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 2
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1418902458, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613392, mtime=1371613392, ctime=1371613392, hashCode=359851081 ]
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=703168415 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=549041464 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2654289 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1660962283 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=653163028 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1922091779 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=27832 ]
+DEBUG Thread-1 fuse.FakeFilesystem-getdir: path=/subdir
+DEBUG Thread-1 fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: ["README.link", "execute_me.link.sh"]
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1418902458, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613392, mtime=1371613392, ctime=1371613392, hashCode=15735326 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=323135501 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2099705691 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=154777486 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=742510685 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=349610078 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=381322754 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=800323830 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1352529649 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=851407248 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=918077175 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=453076530 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2027711095 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1217278695 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1873805543 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=202077946 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1152392515 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=105987312 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1064809421 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1270708296 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=69461457 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1355087478 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=891166311 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1281234799 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=894738324 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1186515174 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=227383376 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1258992419 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=729212242 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=180977865 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=858132903 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=139527469 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2133512606 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1411915083 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=362500631 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=136998678 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=434311562 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=177506381 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=494959784 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1584924857 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=444914211 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=135085423 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=490489482 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1614486788 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1223566071 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=171551625 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1345107101 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=654694538 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1892376585 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=940452025 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=697542255 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=479450812 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=771153740 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=717098535 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=596850781 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=374961130 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1254691612 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1459992991 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=954049115 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1590567303 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=788223665 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1996002959 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=979682126 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=760370133 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2013125681 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=998462082 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=714994516 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1741825447 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=363211825 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1352618001 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=188855665 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=116331389 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=971536153 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1289955330 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1431814845 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1957835280 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1593111626 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=600987386 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1179404661 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=980075617 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=931322429 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1875244867 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=770476297 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=68732269 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1984526644 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1370784151 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=564660841 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=524518594 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=163638423 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1491907201 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=465264835 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=718123118 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=637148086 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1194417460 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2044601711 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1735121130 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1500389297 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1289931605 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1033068770 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=381531395 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=11985823 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1729747990 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1388338491 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1395193582 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=644591081 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1734782899 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=110708174 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=951442116 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=724408050 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1041301507 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1310188746 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=44937684 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1500894891 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1197515375 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=424167941 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1492359994 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1632905845 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1555011902 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=209052924 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=269247176 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=489242803 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2136389305 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=368471295 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1701700764 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=297529802 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1241451998 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=132616134 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1938822199 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2015322662 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1415899750 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=760805843 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=746169063 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1706427008 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=274617771 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=558519794 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=391156721 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=723566380 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1927739346 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=429405933 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1480462011 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1379484735 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=766488133 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1759136625 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1401888126 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1490642445 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=683347213 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=274064735 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2001061977 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=107251772 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=841752171 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1853955208 ]
+DEBUG Thread-5 fuse.FakeFilesystem-  returning errno: 524
+INFO main fuse.FakeFilesystem-created
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1835195318, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613448, mtime=1371613448, ctime=1371613448, hashCode=1967571412 ]
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1177264411 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1516115866 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1465888207 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1250696665 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=888911819 ]
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1128671313 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2044693401 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/mach_kernel
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/mach_kernel") returning: null
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=113093521 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=239779852 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/.hidden
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1300650792 ]
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/.hidden") returning: null
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=801818331 ]
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=700804192 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1615734796 ]
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=724000057 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=626614097 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=243323391 ]
+DEBUG Thread-2 fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=727368649 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1171672119 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/subdir
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2015744690 ]
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1520314875, nlink=1, uid=0, gid=0, rdev=0, size=2048, blocks=4, atime=1371613448, mtime=1371613448, ctime=1371613448, hashCode=2066473405 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2112978551 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/Backups.backupdb
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/Backups.backupdb") returning: null
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 2
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2040919865 ]
+DEBUG main fuse.FakeFilesystem-getattr: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1835195318, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613448, mtime=1371613448, ctime=1371613448, hashCode=2131361171 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1759969037 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=359851081 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=703168415 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=549041464 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2654289 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1660962283 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=653163028 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1922091779 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=27832 ]
+DEBUG Thread-1 fuse.FakeFilesystem-getdir: path=/subdir
+DEBUG Thread-1 fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: ["README.link", "execute_me.link.sh"]
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1835195318, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613449, mtime=1371613449, ctime=1371613449, hashCode=15735326 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=323135501 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2099705691 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=154777486 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=742510685 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=349610078 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=381322754 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1008546603 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=554330850 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=854535264 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1951034559 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1110027070 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1034524001 ]
+DEBUG Thread-5 fuse.FakeFilesystem-  returning errno: 524
+INFO main fuse.FakeFilesystem-created
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-getattr: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=186888796, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613479, mtime=1371613479, ctime=1371613479, hashCode=1418902458 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1967571412 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2019524978 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1465888207 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1516115866 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1250696665 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=888911819 ]
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1128671313 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/mach_kernel
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/mach_kernel") returning: null
+DEBUG Thread-3 fuse.FakeFilesystem-  returning errno: 2
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=855703640 ]
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=113093521 ]
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/.hidden
+DEBUG Thread-2 fuse.FakeFilesystem-  lookup("/.hidden") returning: null
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=239779852 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=186888796, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613479, mtime=1371613479, ctime=1371613479, hashCode=626614097 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getattr: path=/subdir
+DEBUG Thread-3 fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=724000057, nlink=1, uid=0, gid=0, rdev=0, size=2048, blocks=4, atime=1371613479, mtime=1371613479, ctime=1371613479, hashCode=243323391 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=727368649 ]
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/Backups.backupdb
+DEBUG Thread-1 fuse.FakeFilesystem-  lookup("/Backups.backupdb") returning: null
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1407965019 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=545768040 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=820791943 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1762721320 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1520314875 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1171672119 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2015744690 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2066473405 ]
+DEBUG main fuse.FakeFilesystem-getattr: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=186888796, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613479, mtime=1371613479, ctime=1371613479, hashCode=2112978551 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2040919865 ]
+DEBUG Thread-3 fuse.FakeFilesystem-getdir: path=/
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2131361171 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/subdir
+DEBUG main fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG main fuse.FakeFilesystem-  returning: ["README.link", "execute_me.link.sh"]
+DEBUG main fuse.FakeFilesystem-getattr: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=186888796, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613479, mtime=1371613479, ctime=1371613479, hashCode=703168415 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=549041464 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2654289 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1660962283 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=653163028 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1922091779 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=27832 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=467772424 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2060982148 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=15735326 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=323135501 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2099705691 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=154777486 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=549581070 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=481877743 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=758393764 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1008546603 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=554330850 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=854535264 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1951034559 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1110027070 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1034524001 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1217278695 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1873805543 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=202077946 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1152392515 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=105987312 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1064809421 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1270708296 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=69461457 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1355087478 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=891166311 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1281234799 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=894738324 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1186515174 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=227383376 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1258992419 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=729212242 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=180977865 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=858132903 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=139527469 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2133512606 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1411915083 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=362500631 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=136998678 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=434311562 ]
+DEBUG Thread-3 fuse.FakeFilesystem-statfs
+DEBUG Thread-3 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=177506381 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=494959784 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1584924857 ]
+DEBUG Thread-5 fuse.FakeFilesystem-  returning errno: 524
+INFO main fuse.FakeFilesystem-created
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-getattr: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1177264411, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613500, mtime=1371613500, ctime=1371613500, hashCode=1516115866 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG main fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1250696665 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=888911819 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2044693401 ]
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 524
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1128671313 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=855703640 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=239779852 ]
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/mach_kernel
+DEBUG Thread-2 fuse.FakeFilesystem-  lookup("/mach_kernel") returning: null
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=801818331 ]
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1300650792 ]
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/.hidden
+DEBUG Thread-2 fuse.FakeFilesystem-  lookup("/.hidden") returning: null
+DEBUG Thread-2 fuse.FakeFilesystem-  returning errno: 2
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=700804192 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1615734796 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1177264411, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613500, mtime=1371613500, ctime=1371613500, hashCode=545768040 ]
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/subdir
+DEBUG Thread-1 fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1407965019, nlink=1, uid=0, gid=0, rdev=0, size=2048, blocks=4, atime=1371613500, mtime=1371613500, ctime=1371613500, hashCode=820791943 ]
+DEBUG Thread-1 fuse.FakeFilesystem-getattr: path=/Backups.backupdb
+DEBUG Thread-1 fuse.FakeFilesystem-  lookup("/Backups.backupdb") returning: null
+DEBUG Thread-1 fuse.FakeFilesystem-  returning errno: 2
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1762721320 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1520314875 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1171672119 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2015744690 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2066473405 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2112978551 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2040919865 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2131361171 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1759969037 ]
+DEBUG main fuse.FakeFilesystem-getattr: path=/
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1177264411, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613501, mtime=1371613501, ctime=1371613501, hashCode=359851081 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=703168415 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/
+DEBUG main fuse.FakeFilesystem-  returning: ["README", "execute_me.sh", "subdir"]
+DEBUG main fuse.FakeFilesystem-getattr: path=/subdir
+DEBUG main fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1407965019, nlink=1, uid=0, gid=0, rdev=0, size=2048, blocks=4, atime=1371613501, mtime=1371613501, ctime=1371613501, hashCode=549041464 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2654289 ]
+DEBUG main fuse.FakeFilesystem-getdir: path=/subdir
+DEBUG main fuse.FakeFilesystem-  lookup("/subdir") returning: $Directory[ name=subdir, mode=755(OCT) ] with 2 files
+DEBUG main fuse.FakeFilesystem-  returning: ["README.link", "execute_me.link.sh"]
+DEBUG Thread-2 fuse.FakeFilesystem-getattr: path=/
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseGetattr[  mode=40755(OCT), inode=1177264411, nlink=1, uid=0, gid=0, rdev=0, size=3072, blocks=6, atime=1371613501, mtime=1371613501, ctime=1371613501, hashCode=1922091779 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=27832 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=467772424 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2060982148 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=15735326 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=323135501 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2099705691 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=922682751 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=549581070 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=481877743 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=758393764 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1008546603 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=554330850 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=854535264 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1951034559 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1110027070 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1034524001 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1217278695 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1873805543 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=202077946 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1152392515 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=105987312 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1064809421 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1270708296 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=69461457 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1355087478 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=891166311 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1281234799 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=894738324 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1186515174 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=227383376 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1258992419 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=729212242 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=180977865 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=858132903 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=139527469 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=2133512606 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=1411915083 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=362500631 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=136998678 ]
+DEBUG main fuse.FakeFilesystem-statfs
+DEBUG main fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=434311562 ]
+DEBUG Thread-2 fuse.FakeFilesystem-statfs
+DEBUG Thread-2 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=177506381 ]
+DEBUG Thread-1 fuse.FakeFilesystem-statfs
+DEBUG Thread-1 fuse.FakeFilesystem-  returning: fuse.FuseStatfs[  blockSize=512, blocks=1000, blocksFree=200, blocksAvail=180, files=6, filesFree=0, namelen=1024, hashCode=494959784 ]
+DEBUG Thread-4 fuse.FakeFilesystem-  returning errno: 524
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-called getdir
+INFO main fuse.FakeFilesystem-called getdir
+INFO main fuse.FakeFilesystem-called getdir
+INFO main fuse.FakeFilesystem-created
+INFO Thread-1 fuse.FakeFilesystem-getdir()
+INFO main fuse.FakeFilesystem-getdir()
+INFO main fuse.FakeFilesystem-getdir()

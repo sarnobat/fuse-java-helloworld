@@ -143,7 +143,7 @@ public class FakeFilesystem implements Filesystem3 {
     }
 
     public int chmod(String path, int mode) throws FuseException {
-        Node node = lookup(path);
+    	Node node = lookup(path);
 
         if (node != null) {
             node.mode = (node.mode & FuseStatConstants.TYPE_MASK) | (mode & FuseStatConstants.MODE_MASK);
@@ -184,7 +184,7 @@ public class FakeFilesystem implements Filesystem3 {
 
     public int getdir(String path, FuseDirFiller filler) throws FuseException {
         Node node = lookup(path);
-
+        log.info("getdir()");
         if (node instanceof Directory) {
             for (Node child : ((Directory) node).files.values()) {
                 int ftype = (child instanceof Directory)
@@ -281,6 +281,7 @@ public class FakeFilesystem implements Filesystem3 {
 
     public int read(String path, Object fh, ByteBuffer buf, long offset) throws FuseException {
 System.out.println("called read");
+
         if (fh instanceof FileHandle) {
             File file = (File) ((FileHandle) fh).node;
             buf.put(file.content, (int) offset, Math.min(buf.remaining(), file.content.length - (int) offset));
