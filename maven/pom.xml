@@ -11,6 +11,7 @@
     <name>Fuse4J Parent</name>
 
     <modules>
+        <module>fuse4j-core</module>
         <module>fuse4j-fakefs</module>
     </modules>
 
