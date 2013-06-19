@@ -8,7 +8,7 @@ PROJECT_NAME=fuse4j
 CWD=`pwd`
 
 FUSE_HOME=/usr/local
-MOUNT_POINT=${CWD}/fake
+MOUNT_POINT=${CWD}/../../fake
 FS_CLASS=fuse/FakeFilesystem
 VERSION=2.4.0.0-SNAPSHOT
 
