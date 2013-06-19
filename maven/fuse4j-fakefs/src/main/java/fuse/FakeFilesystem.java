@@ -280,7 +280,7 @@ public class FakeFilesystem implements Filesystem3 {
     // fh is filehandle passed from open
 
     public int read(String path, Object fh, ByteBuffer buf, long offset) throws FuseException {
-System.out.println("called read");
+    	System.out.println("called read");
 
         if (fh instanceof FileHandle) {
             File file = (File) ((FileHandle) fh).node;
