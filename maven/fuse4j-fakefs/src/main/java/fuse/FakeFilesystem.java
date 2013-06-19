@@ -28,7 +28,7 @@ public class FakeFilesystem implements Filesystem3 {
     private static final int NAME_LENGTH = 1024;
 
     // a root directory
-    private Directory root;
+    private DirectoryNode root;
 
     private static class Node {
         static int nfiles = 0;
@@ -54,10 +54,10 @@ public class FakeFilesystem implements Filesystem3 {
         }
     }
 
-    private static class Directory extends Node {
+    private static class DirectoryNode extends Node {
         Map<String, Node> files = new LinkedHashMap<String, Node>();
 
-        Directory(String name, int mode, String... xattrs) {
+        DirectoryNode(String name, int mode, String... xattrs) {
             super(name, mode, xattrs);
         }
 
@@ -120,7 +120,7 @@ public class FakeFilesystem implements Filesystem3 {
 
         File f = new File(path);
         Node parent = lookup(f.getParent());
-        Node node = (parent instanceof Directory) ? ((Directory) parent).files.get(f.getName()) : null;
+        Node node = (parent instanceof DirectoryNode) ? ((DirectoryNode) parent).files.get(f.getName()) : null;
 
         if (log.isDebugEnabled()) {
             log.debug("  lookup(\"" + path + "\") returning: " + node);
@@ -130,12 +130,12 @@ public class FakeFilesystem implements Filesystem3 {
     }
 
     public FakeFilesystem() {
-        root = new Directory("", 0755, "description", "ROOT directory");
+        root = new DirectoryNode("", 0755, "description", "ROOT directory");
 
         root.add(new FileNode("README", 0644, "You have read me\n", "mimetype", "text/plain", "description", "a README file"));
         root.add(new FileNode("execute_me.sh", 0755, "#!/bin/sh\n\necho \"You executed me\"\n", "mimetype", "text/plain", "description", "a BASH script"));
 
-        Directory subdir = new Directory("subdir", 0755, "description", "a subdirectory");
+        DirectoryNode subdir = new DirectoryNode("subdir", 0755, "description", "a subdirectory");
         root.add(subdir);
         subdir.add(new Link("README.link", 0666, "../README", "description", "a symbolic link"));
         subdir.add(new Link("execute_me.link.sh", 0666, "../execute_me.sh", "description", "another symbolic link"));
@@ -163,8 +163,8 @@ public class FakeFilesystem implements Filesystem3 {
 
         int time = (int) (System.currentTimeMillis() / 1000L);
 
-        if (node instanceof Directory) {
-            Directory directory = (Directory) node;
+        if (node instanceof DirectoryNode) {
+            DirectoryNode directory = (DirectoryNode) node;
             getattrSetter.set(directory.hashCode(), FuseFtypeConstants.TYPE_DIR | directory.mode, 1, 0, 0, 0, directory.files.size() * NAME_LENGTH, (directory.files.size() * NAME_LENGTH + BLOCK_SIZE - 1) / BLOCK_SIZE, time, time, time);
 
             return 0;
@@ -186,9 +186,9 @@ public class FakeFilesystem implements Filesystem3 {
     public int getdir(String path, FuseDirFiller filler) throws FuseException {
         Node node = lookup(path);
         log.info("getdir()");
-        if (node instanceof Directory) {
-            for (Node child : ((Directory) node).files.values()) {
-                int ftype = (child instanceof Directory)
+        if (node instanceof DirectoryNode) {
+            for (Node child : ((DirectoryNode) node).files.values()) {
+                int ftype = (child instanceof DirectoryNode)
                         ? FuseFtypeConstants.TYPE_DIR
                         : ((child instanceof FileNode)
                         ? FuseFtypeConstants.TYPE_FILE
