@@ -1,0 +1,5 @@
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-Initializing Filesystem
+INFO Thread-5 fuse.FakeFilesystem-Destroying Filesystem
+INFO main fuse.FakeFilesystem-created
+INFO main fuse.FakeFilesystem-Initializing Filesystem
