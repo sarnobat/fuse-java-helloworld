@@ -69,10 +69,10 @@ public class FakeFilesystem implements Filesystem3 {
         }
     }
 
-    private static class File extends Node {
+    private static class FileNode extends Node {
         byte[] content;
 
-        File(String name, int mode, String content, String... xattrs) {
+        FileNode(String name, int mode, String content, String... xattrs) {
             super(name, mode, xattrs);
 
             this.content = content.getBytes();
@@ -131,8 +131,8 @@ public class FakeFilesystem implements Filesystem3 {
     public FakeFilesystem() {
         root = new Directory("", 0755, "description", "ROOT directory");
 
-        root.add(new File("README", 0644, "You have read me\n", "mimetype", "text/plain", "description", "a README file"));
-        root.add(new File("execute_me.sh", 0755, "#!/bin/sh\n\necho \"You executed me\"\n", "mimetype", "text/plain", "description", "a BASH script"));
+        root.add(new FileNode("README", 0644, "You have read me\n", "mimetype", "text/plain", "description", "a README file"));
+        root.add(new FileNode("execute_me.sh", 0755, "#!/bin/sh\n\necho \"You executed me\"\n", "mimetype", "text/plain", "description", "a BASH script"));
 
         Directory subdir = new Directory("subdir", 0755, "description", "a subdirectory");
         root.add(subdir);
@@ -167,8 +167,8 @@ public class FakeFilesystem implements Filesystem3 {
             getattrSetter.set(directory.hashCode(), FuseFtypeConstants.TYPE_DIR | directory.mode, 1, 0, 0, 0, directory.files.size() * NAME_LENGTH, (directory.files.size() * NAME_LENGTH + BLOCK_SIZE - 1) / BLOCK_SIZE, time, time, time);
 
             return 0;
-        } else if (node instanceof File) {
-            File file = (File) node;
+        } else if (node instanceof FileNode) {
+            FileNode file = (FileNode) node;
             getattrSetter.set(file.hashCode(), FuseFtypeConstants.TYPE_FILE | file.mode, 1, 0, 0, 0, file.content.length, (file.content.length + BLOCK_SIZE - 1) / BLOCK_SIZE, time, time, time);
 
             return 0;
@@ -189,7 +189,7 @@ public class FakeFilesystem implements Filesystem3 {
             for (Node child : ((Directory) node).files.values()) {
                 int ftype = (child instanceof Directory)
                         ? FuseFtypeConstants.TYPE_DIR
-                        : ((child instanceof File)
+                        : ((child instanceof FileNode)
                         ? FuseFtypeConstants.TYPE_FILE
                         : ((child instanceof Link)
                         ? FuseFtypeConstants.TYPE_SYMLINK
@@ -283,7 +283,7 @@ public class FakeFilesystem implements Filesystem3 {
     	System.out.println("called read");
 
         if (fh instanceof FileHandle) {
-            File file = (File) ((FileHandle) fh).node;
+            FileNode file = (FileNode) ((FileHandle) fh).node;
             buf.put(file.content, (int) offset, Math.min(buf.remaining(), file.content.length - (int) offset));
 
             return 0;
